@@ -1,0 +1,80 @@
+:root {
+    --checkerC1: #fff;
+    --checkerC1Detail: #333;
+    --checkerC1Label: #333;
+    --checkerC2: #333;
+    --checkerC2Detail: #fff;
+    --checkerC2Label: #fff;
+    --canMove: #99cc33;
+}
+
+div.checker {
+    position: relative;
+    width: 65%;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+div.checkerP1 {
+    background: url(../../assets/table/checker1.png) center;
+    background-size: 110%;
+}
+
+div.checkerP2 {
+    background: url(../../assets/table/checker2.png) center ;
+    background-size: 110%;
+}
+
+div.checker:before {
+    content: "";
+    padding-top: 100%;
+    display: block;
+}
+
+div.checker p {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+
+div.checkerP1 p {
+    color: var(--checkerC1Label);
+}
+
+div.checkerP2 p {
+    color: var(--checkerC2Label);
+}
+
+.checkerP1.canMove {
+    background: url(../../assets/table/checker1.png) center;
+    background-size: 110%;
+    border: 2px solid #99cc33;
+}
+.checkerP2.canMove {
+    background: url(../../assets/table/checker2.png) center;
+    background-size: 110%;
+    border: 2px solid #99cc33;
+}
+
+@keyframes canMove1 {
+    0% {
+        background: radial-gradient(circle, var(--checkerC1) 0%, var(--checkerC1) 40%, var(--checkerC1Detail) 45%, var(--checkerC1) 50%, var(--checkerC1) 55%, var(--checkerC1Detail) 60%, var(--checkerC1) 65%, var(--checkerC1) 100%);
+    }
+    100% {
+        background: radial-gradient(circle, var(--checkerC1) 0%, var(--checkerC1) 40%, var(--canMove) 45%, var(--checkerC1) 50%, var(--checkerC1) 55%, var(--canMove) 60%, var(--checkerC1) 65%, var(--checkerC1) 100%);
+    }
+}
+@keyframes canMove2 {
+    0% {
+        background: radial-gradient(circle, var(--checkerC2) 0%, var(--checkerC2) 40%, var(--checkerC2Detail) 45%, var(--checkerC2) 50%, var(--checkerC2) 55%, var(--checkerC2Detail) 60%, var(--checkerC2) 65%, var(--checkerC2) 100%);
+    }
+    100% {
+        background: radial-gradient(circle, var(--checkerC2) 0%, var(--checkerC2) 40%, var(--canMove) 45%, var(--checkerC2) 50%, var(--checkerC2) 55%, var(--canMove) 60%, var(--checkerC2) 65%, var(--checkerC2) 100%);
+    }
+}

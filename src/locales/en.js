@@ -1,0 +1,21 @@
+export default {
+    networkError: 'network error , check your connection',
+    userError: 'user not found',
+    ruSure: 'are you sure',
+    uWillLose: 'if u accept this , you will lose',
+    accept: 'accept',
+    denay: 'denay',
+    uLose: 'you lose',
+    uWin: 'yoy win',
+    returnToGame: 'back to game',
+    lostConnection: 'lost connection',
+    waitingForOpponent: 'waiting for opponent',
+    noMove: 'no move',
+    mute: 'mute',
+    help: 'help',
+    level: 'level',
+    roll: 'Roll Dice',
+    balance: 'balance',
+    lessBalance: 'your balance is less than table balance',
+    menu: 'menu'
+}

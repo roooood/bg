@@ -1,0 +1,25 @@
+{
+  "name": "backgammon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "colyseus.js": "^0.9.13",
+    "i18next": "^17.0.13",
+    "i18next-browser-languagedetector": "^3.0.3",
+    "react": "^16.3.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-confirm-alert": "^2.4.1",
+    "react-countdown-clock": "^2.6.0",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-toasts": "^3.0.3",
+    "react-transition-group": "^1.2.1",
+    "rodal": "^1.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+    --rollButtonColor: rgb(248, 248, 248);
+}
+
+.rollButton {
+    position: relative;
+}
+
+.rollButtonContent {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.54);
+    color: #fff;
+    font-size:  1.5rem;
+    box-shadow: 0px 0px 17px #a4a4a4;
+    padding: 8px 12px;
+}
+
+.clickable {
+    cursor: pointer;
+}

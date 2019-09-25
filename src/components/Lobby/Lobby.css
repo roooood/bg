@@ -1,0 +1,234 @@
+.player-info{
+  width:100%;
+  height:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.player-item{
+  width:30%;
+  height:50px;
+  background: #fff;
+  border-radius:20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+.player-balance{
+  background: #70bc6c;
+  width:40%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  color:#fff;
+}
+.player-balance-text{
+  width:60%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.player-level{
+  background: #7f6cbc;
+  width:40%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  color:#fff;
+}
+.player-infoname{
+  width:60%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+#carousel {
+  height: 200px;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  color: #228291;
+  line-height: 70px;
+  bottom: 20px;
+  z-index: 1000;
+}
+.arrow-left {
+  left: 0;
+}
+.arrow-right {
+  right: 0;
+}
+
+.item {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius:10px;
+  position: absolute;
+  padding-top:18px;
+  text-shadow:1px 1px 3px #333;
+  cursor:pointer;
+  transition: height .4s, width .4s, left .4s, margin-top .4s, padding .4s, background-color .4s, font-size .4s;
+}
+
+.item img{
+  width:100%;
+}
+.level-3 {
+  height: 120px;
+  width: 90px;
+  background-color: #37918c;
+  left: 88.2%;
+  margin-top: 40px;
+  padding-top:10px;
+  font-size: 16px;
+}
+.level-2 {
+  height: 150px;
+  width: 110px;
+  background-color: #228291;
+  left: 74.8%;
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+.level-1 {
+  height: 180px;
+  width: 130px;
+  background-color: #6796E5;
+  left: 59.1%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding-top:20px;
+}
+
+.level0 {
+  height: 200px;
+  width: 150px;
+  background-color: #4EC9E1;
+  left: 41%;
+  font-size: 22px;
+}
+
+.level1 {
+  height: 180px;
+  width: 130px;
+  background-color: #6796E5;
+  margin-top: 10px;
+  left: 25.3%;
+  font-size: 20px;
+  padding-top:20px;
+}
+
+.level2 {
+  height: 150px;
+  width: 110px;
+  background-color: #228291;
+  margin-top: 25px;
+  left: 12%;
+  font-size: 17px;
+}
+.level3 {
+  height: 120px;
+  width: 90px;
+  background-color: #37918c;
+  margin-top: 40px;
+  left: 1%;
+  padding-top:10px;
+  font-size: 16px;
+}
+.left-enter {
+  opacity: 0;
+  left: -15%;
+  height: 90px;
+  width: 70px;
+  margin-top: 50px;
+}
+
+.left-enter.left-enter-active {
+  opacity: 1;
+  left: 1%;
+  height: 120px;
+  width: 90px;
+  margin-top: 40px;
+  transition: left .4s, opacity .4s, height .4s, width .4s, margin-top .4s, padding .4s, font-size .4s;
+}
+
+.left-leave {
+  opacity: 1;
+  left: 88.2%;
+  height: 120px;
+  width: 90px;
+  margin-top: 40px;
+}
+
+.left-leave.left-leave-active {
+  left: 105%;
+  opacity: 0;
+  height: 90px;
+  width: 70px;
+  margin-top: 50px;
+  transition: left .4s, opacity .4s, height .4s, width .4s, margin-top .4s, padding .4s, font-size .4s;
+}
+
+.right-enter {
+  opacity: 0;
+  left: 105%;
+  height: 90px;
+  width: 70px;
+  margin-top: 50px;
+}
+
+.right-enter.right-enter-active {
+  left: 88.2%;
+  opacity: 1;
+  height: 120px;
+  width: 90px;
+  margin-top: 40px;
+  transition: left .4s, opacity .4s, height .4s, width .4s, margin-top .4s, padding .4s, font-size .4s;
+}
+
+.right-leave {
+  left: 1%;
+  opacity: 1;
+  height: 120px;
+  width: 90px;
+  margin-top: 40px;
+}
+
+.right-leave.right-leave-active {
+  left: -15%;
+  opacity: 0;
+  height: 90px;
+  width: 70px;
+  margin-top: 50px;
+  transition: left .4s, opacity .4s, height .4s, width .4s, margin-top .4s, padding .4s, font-size .4s;
+}
+
+.noselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

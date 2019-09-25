@@ -1,0 +1,21 @@
+export default {
+    networkError: 'مشکل در ارتباط با سرور وجود دارد',
+    userError: 'کاربر یافت نشد',
+    ruSure: 'آیا مطمعن هستید',
+    uWillLose: 'در صورت قبول کردن , شما می بازید',
+    accept: 'قبول می کنم',
+    denay: 'منصرف شدم',
+    uLose: 'شما باختید',
+    uWin: 'شما برنده شدید',
+    returnToGame: ' به میز بازگشت',
+    lostConnection: ' ارتباط خود را از دست داد',
+    waitingForOpponent: 'در حال یافتن حریف',
+    noMove: 'حرکتی وجود ندارد',
+    mute: 'قطع صدا',
+    help: 'راهنما',
+    level: 'مرحله',
+    roll: 'پرتاب کردن تاس',
+    balance: 'موجودی',
+    lessBalance: 'موجودی شما کمتر از موجودی میز است',
+    menu: 'منو'
+}
